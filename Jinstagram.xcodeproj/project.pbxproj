@@ -3,19 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D112C84925E15BD1008990ED /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D112C84825E15BD1008990ED /* SignUpViewController.swift */; };
 		D117567425DEC278002D6255 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117567325DEC278002D6255 /* AppDelegate.swift */; };
 		D117567625DEC278002D6255 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117567525DEC278002D6255 /* SceneDelegate.swift */; };
 		D117567825DEC278002D6255 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117567725DEC278002D6255 /* ViewController.swift */; };
 		D117567B25DEC278002D6255 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D117567925DEC278002D6255 /* Main.storyboard */; };
 		D117567D25DEC279002D6255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D117567C25DEC279002D6255 /* Assets.xcassets */; };
 		D117568025DEC279002D6255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D117567E25DEC279002D6255 /* LaunchScreen.storyboard */; };
+		D11756A225DEC534002D6255 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D11756A125DEC534002D6255 /* GoogleService-Info.plist */; };
+		D11756CA25DEC627002D6255 /* Pods_Jinstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476F8EAFB73624D08D86E6F2 /* Pods_Jinstagram.framework */; };
+		D117570425DEC69E002D6255 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D117570325DEC69E002D6255 /* MainViewController.swift */; };
+		D137DFEF25E1912C000B835D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137DFEE25E1912C000B835D /* ProfileViewController.swift */; };
+		D148563925E4E2E3007349DB /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148563825E4E2E3007349DB /* ProfileEditViewController.swift */; };
+		D148563C25E4FA7E007349DB /* NameEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148563B25E4FA7E007349DB /* NameEditViewController.swift */; };
+		D148563F25E4FA88007349DB /* IdEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148563E25E4FA88007349DB /* IdEditViewController.swift */; };
+		D148564225E4FA92007349DB /* TextEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148564125E4FA92007349DB /* TextEditViewController.swift */; };
+		D148564525E50F6A007349DB /* OtherProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148564425E50F6A007349DB /* OtherProfileViewController.swift */; };
+		D148C24025E2BDDE007F972C /* ContentFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D148C23F25E2BDDE007F972C /* ContentFinalViewController.swift */; };
+		D160960025E166B400163A81 /* FriendSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16095FF25E166B400163A81 /* FriendSearchViewController.swift */; };
+		D191D3C125DFB4760023B5AA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D191D3C025DFB4760023B5AA /* Models.swift */; };
+		D1A0383225E2A02F009C72BE /* AddContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A0383125E2A02F009C72BE /* AddContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		476F8EAFB73624D08D86E6F2 /* Pods_Jinstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jinstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83631F2DC75277D4C52C692A /* Pods-Jinstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jinstagram.debug.xcconfig"; path = "Target Support Files/Pods-Jinstagram/Pods-Jinstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		D112C84825E15BD1008990ED /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D117567025DEC278002D6255 /* Jinstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jinstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D117567325DEC278002D6255 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D117567525DEC278002D6255 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,19 @@
 		D117567C25DEC279002D6255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D117567F25DEC279002D6255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D117568125DEC279002D6255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11756A125DEC534002D6255 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D117570325DEC69E002D6255 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D137DFEE25E1912C000B835D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D148563825E4E2E3007349DB /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		D148563B25E4FA7E007349DB /* NameEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditViewController.swift; sourceTree = "<group>"; };
+		D148563E25E4FA88007349DB /* IdEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdEditViewController.swift; sourceTree = "<group>"; };
+		D148564125E4FA92007349DB /* TextEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditViewController.swift; sourceTree = "<group>"; };
+		D148564425E50F6A007349DB /* OtherProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherProfileViewController.swift; sourceTree = "<group>"; };
+		D148C23F25E2BDDE007F972C /* ContentFinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFinalViewController.swift; sourceTree = "<group>"; };
+		D16095FF25E166B400163A81 /* FriendSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSearchViewController.swift; sourceTree = "<group>"; };
+		D191D3C025DFB4760023B5AA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D1A0383125E2A02F009C72BE /* AddContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContentViewController.swift; sourceTree = "<group>"; };
+		F678F69EDD130122F3DA49DA /* Pods-Jinstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jinstagram.release.xcconfig"; path = "Target Support Files/Pods-Jinstagram/Pods-Jinstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11756CA25DEC627002D6255 /* Pods_Jinstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41F0970E7F5E00CE34B6FC6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83631F2DC75277D4C52C692A /* Pods-Jinstagram.debug.xcconfig */,
+				F678F69EDD130122F3DA49DA /* Pods-Jinstagram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B214BAE89E7681021243CD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				476F8EAFB73624D08D86E6F2 /* Pods_Jinstagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D117566725DEC278002D6255 = {
 			isa = PBXGroup;
 			children = (
 				D117567225DEC278002D6255 /* Jinstagram */,
 				D117567125DEC278002D6255 /* Products */,
+				41F0970E7F5E00CE34B6FC6D /* Pods */,
+				B214BAE89E7681021243CD12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,52 @@
 		D117567225DEC278002D6255 /* Jinstagram */ = {
 			isa = PBXGroup;
 			children = (
+				D148C23E25E2BDC8007F972C /* newContent */,
+				D137DFED25E19122000B835D /* profileViews */,
+				D16095FE25E166A300163A81 /* friendViews */,
 				D117567325DEC278002D6255 /* AppDelegate.swift */,
 				D117567525DEC278002D6255 /* SceneDelegate.swift */,
 				D117567725DEC278002D6255 /* ViewController.swift */,
 				D117567925DEC278002D6255 /* Main.storyboard */,
+				D112C84825E15BD1008990ED /* SignUpViewController.swift */,
+				D191D3C025DFB4760023B5AA /* Models.swift */,
+				D117570325DEC69E002D6255 /* MainViewController.swift */,
 				D117567C25DEC279002D6255 /* Assets.xcassets */,
 				D117567E25DEC279002D6255 /* LaunchScreen.storyboard */,
 				D117568125DEC279002D6255 /* Info.plist */,
+				D11756A125DEC534002D6255 /* GoogleService-Info.plist */,
 			);
 			path = Jinstagram;
+			sourceTree = "<group>";
+		};
+		D137DFED25E19122000B835D /* profileViews */ = {
+			isa = PBXGroup;
+			children = (
+				D137DFEE25E1912C000B835D /* ProfileViewController.swift */,
+				D148563825E4E2E3007349DB /* ProfileEditViewController.swift */,
+				D148563B25E4FA7E007349DB /* NameEditViewController.swift */,
+				D148563E25E4FA88007349DB /* IdEditViewController.swift */,
+				D148564125E4FA92007349DB /* TextEditViewController.swift */,
+				D148564425E50F6A007349DB /* OtherProfileViewController.swift */,
+			);
+			path = profileViews;
+			sourceTree = "<group>";
+		};
+		D148C23E25E2BDC8007F972C /* newContent */ = {
+			isa = PBXGroup;
+			children = (
+				D1A0383125E2A02F009C72BE /* AddContentViewController.swift */,
+				D148C23F25E2BDDE007F972C /* ContentFinalViewController.swift */,
+			);
+			path = newContent;
+			sourceTree = "<group>";
+		};
+		D16095FE25E166A300163A81 /* friendViews */ = {
+			isa = PBXGroup;
+			children = (
+				D16095FF25E166B400163A81 /* FriendSearchViewController.swift */,
+			);
+			path = friendViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D117568425DEC279002D6255 /* Build configuration list for PBXNativeTarget "Jinstagram" */;
 			buildPhases = (
+				2E54AF108640E2B6DB7BB921 /* [CP] Check Pods Manifest.lock */,
 				D117566C25DEC278002D6255 /* Sources */,
 				D117566D25DEC278002D6255 /* Frameworks */,
 				D117566E25DEC278002D6255 /* Resources */,
+				C16B91A974A4E8E480792DCB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D117568025DEC279002D6255 /* LaunchScreen.storyboard in Resources */,
+				D11756A225DEC534002D6255 /* GoogleService-Info.plist in Resources */,
 				D117567D25DEC279002D6255 /* Assets.xcassets in Resources */,
 				D117567B25DEC278002D6255 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +222,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E54AF108640E2B6DB7BB921 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jinstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16B91A974A4E8E480792DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jinstagram/Pods-Jinstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jinstagram/Pods-Jinstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jinstagram/Pods-Jinstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D117566C25DEC278002D6255 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A0383225E2A02F009C72BE /* AddContentViewController.swift in Sources */,
+				D148563F25E4FA88007349DB /* IdEditViewController.swift in Sources */,
+				D148563C25E4FA7E007349DB /* NameEditViewController.swift in Sources */,
+				D112C84925E15BD1008990ED /* SignUpViewController.swift in Sources */,
 				D117567825DEC278002D6255 /* ViewController.swift in Sources */,
 				D117567425DEC278002D6255 /* AppDelegate.swift in Sources */,
+				D148C24025E2BDDE007F972C /* ContentFinalViewController.swift in Sources */,
 				D117567625DEC278002D6255 /* SceneDelegate.swift in Sources */,
+				D117570425DEC69E002D6255 /* MainViewController.swift in Sources */,
+				D191D3C125DFB4760023B5AA /* Models.swift in Sources */,
+				D148564525E50F6A007349DB /* OtherProfileViewController.swift in Sources */,
+				D137DFEF25E1912C000B835D /* ProfileViewController.swift in Sources */,
+				D160960025E166B400163A81 /* FriendSearchViewController.swift in Sources */,
+				D148563925E4E2E3007349DB /* ProfileEditViewController.swift in Sources */,
+				D148564225E4FA92007349DB /* TextEditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +427,12 @@
 		};
 		D117568525DEC279002D6255 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83631F2DC75277D4C52C692A /* Pods-Jinstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRXGXW25BG;
 				INFOPLIST_FILE = Jinstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,10 +447,12 @@
 		};
 		D117568625DEC279002D6255 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F678F69EDD130122F3DA49DA /* Pods-Jinstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRXGXW25BG;
 				INFOPLIST_FILE = Jinstagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
